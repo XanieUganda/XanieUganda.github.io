@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1{
+            color:rgb(185, 14, 242);}
+         h2{
+             color:rgb(99, 152, 237);
+         }   
+        body{
+            background-color:rgb(242, 223, 242);
+        }
+        .scones{
+            background-color:rgb(237, 112, 237);
+        }
+        .sponge_cake{
+            background-color:rgb(146, 235, 147);
+        }
+        .fruit-salad{
+            background-color:rgb(231, 240, 149);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Poly's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#scones">Scones</a></li>
+            <li><a href="#sponge_cake">sponge cake</a></li>
+            <li><a href="#fruit_salad">Mixed fruit salad</a></li>
+        </ol>
+        
+        <h2 id="scones">Scones</h2>
+        <img src="https://www.kasandbox.org/programming-images/food/croissant.png" alt="scone or croissants" width="200">
+        
+        <ul>
+            <li>Time: 45mins</li>
+            <li>Serves: 24 </li>
+        </ul>
+        
+        <table class="scones">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>flour</td>
+                <td>400gm<td>
+            </tr>
+            <tr>
+                <td>veg oil</td>
+                <td>200ml<td>
+            </tr>
+            <tr>
+                <td>yeast</td>
+                <td>5gm</td>
+            </tr>
+           </tbody>
+        </table>   
+           
+        
+        <p><strong>Step 1:</strong> Sieve the flour to remove air.<br>
+        <strong>Step 2:</strong> Mix floour with yeast and stir till mix is uniform<br>
+        <strong>Step 3:</strong> Add Veg oil to the mix and mix with a stand mixer till dough is think and consistent<br>
+        <strong>Step 4:</strong> pinch small pieces that will be baked into scones
+</p>
+        
+    <p><em>Source: <a href="https://laurenslatest.com/simple-scone-recipe/">Some recipes websites</a></em></p>
+    
+    <h2 id="sponge_cake">Sponge cake</h2>
+    <img src="https://www.kasandbox.org/programming-images/food/cake.png" alt="sponge cake" width="200">
+    <ul>
+        <li>Time: 55mins</li>
+        <li>Serves: 24</li>
+    </ul>
+    <table class="sponge_cake">
+        <thead>
+            <tr>
+                <td><strong>Ingredients</strong></td>
+                <td><strong>Quantity</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Flour</td>
+                <td>350gm</td>
+            </tr>
+            <tr>
+                <td>Magerine</td>
+                <td>350gm</td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Step 1:</strong> Sieve the flour to remove air.<br>
+        <strong>Step 2:</strong> Mix Magerine,sugar and Eggs and beat till mix is fluffy<br>
+        <strong>Step 3:</strong> Add flour to the mix and mix with a mixer till its all mixed consistently<br>
+        <strong>Step 4:</strong> pour the mix into the already greased baking pan and bake at 320 degrees
+</p>
+<p><em>Source: <a href="https://natashaskitchen.com/easy-sponge-cake-genoise/">Some recipes websites</a></em></p>
+
+<h2 id="fruit_salad">Mixed Fruit Salad</h2>
+    <img src="https://www.kasandbox.org/programming-images/food/fruits.png" alt="mixed fruit salad" width="200">
+    <ul>
+        <li>Time: 15mins</li>
+        <li>Serves: 12</li>
+    </ul>
+    <table class="fruit-salad">
+        <thead>
+            <tr>
+                <td><strong>Ingredients</strong></td>
+                <td><strong>Quantity</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Black berries</td>
+                <td>200gm</td>
+            </tr>
+            <tr>
+                <td>star berries</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Pineapples</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Tangerines</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Step 1:</strong> Cut all fruits to small shaped pieces.<br>
+        <strong>Step 2:</strong> Mix all fruits into one bowl<br>
+        <strong>Step 3:</strong> Add yoghurt or honey as preferred<br>
+        <strong>Step 4:</strong> serve in 12 bowls of equal portions
+</p>
+<p><em>Source: <a href="https://www.allrecipes.com/recipe/214947/perfect-summer-fruit-salad/">Some recipes websites</a></em></p>
+    </body>
+</html>
